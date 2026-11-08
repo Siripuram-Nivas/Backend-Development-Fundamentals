@@ -1,0 +1,41 @@
+# Documents (excluded per request: do not push word and pdfs)
+*.docx
+*.doc
+*.pdf
+
+# Dependencies
+node_modules/
+*/node_modules/
+*/*/node_modules/
+*/*/*/node_modules/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# IDE / Editor / Tool directories
+.vscode/
+.idea/
+.qodo/
+*/.qodo/
+*/*/.qodo/
+.freebuff/
+*/.freebuff/
+*/*/.freebuff/
+.playwright-mcp/
+*/.playwright-mcp/
+*/*/.playwright-mcp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Other projects and archives in workspace
+lenslab-studio/
+lenslab-studio.zip
